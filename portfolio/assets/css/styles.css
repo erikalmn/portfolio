@@ -336,7 +336,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     margin: 0 auto 0.875rem auto;
-    padding-top: 6rem;
+    padding: 6rem 0rem 3rem;
 }
 
 .box-projects {
@@ -380,7 +380,7 @@ button:hover {
 
 .paragraph-projects {
     padding: 0 0 0 1rem;
-    font-size: 0.875rem;
+    font-size: 0.75rem;
 }
 
 .tech-list-projects {
@@ -391,16 +391,10 @@ button:hover {
     padding-left: 1rem;
 }
 
-.text-alert {
-    text-align: justify;
-    margin: 2rem;
-    line-height: 1.5rem;
-}
-
 @media screen and (min-width: 1024px) {
     #projects {
         flex-direction: row;
-        padding-top: 11.5rem;
+        padding: 11.5rem 0rem 11rem;
     }
 
     .box-projects {
@@ -430,7 +424,8 @@ button:hover {
 
     .paragraph-projects {
         padding: 0.5rem 0;
-        font-size: 1rem;
+        font-size: 0.9rem;
+        text-align: center;
     }
 
     .tech-list-projects {
@@ -438,12 +433,6 @@ button:hover {
         gap: 0.25rem;
         justify-content: start;
         padding: 0.75rem 0;
-    }
-
-    .text-alert {
-        text-align: center;
-        margin: 2rem 12rem 6rem;
-        line-height: 1.5rem;
     }
 }
 
